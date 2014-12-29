@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.browser.tests.TestBrowsers">
+        <methods>
+          <include name="setUp"/>
+          <include name="TestBrowser"/>
+        </methods>
+      </class> <!-- com.browser.tests.TestBrowsers -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
